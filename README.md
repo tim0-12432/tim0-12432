@@ -7,4 +7,5 @@
 
 ### Github stats
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=tim0-12432&hide=stars&show_icons=true&include_all_commits=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tim0-12432&layout=compact)](https://github.com/tim0-12432)
