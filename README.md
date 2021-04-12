@@ -5,7 +5,8 @@
 [![Snapchat](https://img.shields.io/badge/%40tim0_12432-Click-%23FFFC00?logo=snapchat&logoColor=%23FFFC00&style=for-the-badge)](https://snapchat.com/add/tim0_12432)
 [![Discord](https://img.shields.io/discord/671096306059444279?color=%237289DA&label=Join+my+Discord&logo=discord&logoColor=%237289DA&style=for-the-badge)](https://discord.gg/bWVUkcAF9x)
 
-### Github stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=tim0-12432&hide=stars&show_icons=true&include_all_commits=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tim0-12432&layout=compact)](https://github.com/tim0-12432)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=tim0-12432&hide=stars&show_icons=true&include_all_commits=true&title_color=D7C256&text_color=D7C256&icon_color=768390&bg_color=22272E&hide_border=true&custom_title=My%20GitHub%20Statistics)](https://github.com/tim0-12432)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tim0-12432&layout=compact&langs_count=10&title_color=D7C256&text_color=D7C256&icon_color=768390&bg_color=22272E&hide_border=true&hide_title=true)](https://github.com/tim0-12432)
+
+[THEME]: &title_color=D7C256&text_color=D7C256&icon_color=768390&bg_color=22272E&hide_border=true
