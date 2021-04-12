@@ -1,7 +1,7 @@
 # Tim0_12432
 
 [![Instagram](https://img.shields.io/badge/%40tim0__12432-Click-%23D76B56?logo=instagram&logoColor=%23D76B56&style=for-the-badge)](https://instagram.com/tim0_12432)
-[![Instagram](https://img.shields.io/badge/%40tim0__12432_k1h-Click-%23D76B56?logo=instagram&logoColor=%23D76B56&style=for-the-badge)](https://instagram.com/tim0_12432_k1h)
+[![Instagram](https://img.shields.io/badge/%40tim0__12432__k1h-Click-%23D76B56?logo=instagram&logoColor=%23D76B56&style=for-the-badge)](https://instagram.com/tim0_12432_k1h)
 [![Snapchat](https://img.shields.io/badge/%40tim0__12432-Click-%23D7C256?logo=snapchat&logoColor=%23D7C256&style=for-the-badge)](https://snapchat.com/add/tim0_12432)
 [![Discord](https://img.shields.io/discord/671096306059444279?color=%238C72DA&label=Join+my+Discord&logo=discord&logoColor=%238C72DA&style=for-the-badge)](https://discord.gg/bWVUkcAF9x)
 
