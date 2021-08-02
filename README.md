@@ -7,8 +7,8 @@
 [THEME]: &title_color=D7C256&text_color=D7C256&icon_color=768390&bg_color=22272E&hide_border=true
 
 <p align="center">
-<a href="http://bit.ly/Instagram-tim0_12432"><img src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt='instagram main' height='40'></a>
-<a href="http://bit.ly/Instagram-priv-tim0_12432"><img src="https://img.icons8.com/fluency/96/000000/instagram-new.png" alt='instagram private' height='40'></a>
-<a href="http://bit.ly/Snapchat-tim0_12432"><img src="https://img.icons8.com/color/96/000000/snapchat-circled-logo--v1.png" alt='snapchat' height='40'></a>
-<a href="http://bit.ly/Discord-tim0_12432"><img src="https://img.icons8.com/color/96/000000/discord-logo.png" alt='discord' height='40'></a>  
+<a href="http://bit.ly/Instagram-tim0_12432"><img src="./icons/instagram.png" alt='instagram main' height='40'></a>&nbsp;&nbsp;
+<a href="http://bit.ly/Instagram-priv-tim0_12432"><img src="./icons/instagram.png" alt='instagram private' height='40'></a>&nbsp;&nbsp;
+<a href="http://bit.ly/Snapchat-tim0_12432"><img src="./icons/snapchat.png" alt='snapchat' height='40'></a>&nbsp;&nbsp;
+<a href="http://bit.ly/Discord-tim0_12432"><img src="./icons/discord.png" alt='discord' height='40'></a>  
 </p>
