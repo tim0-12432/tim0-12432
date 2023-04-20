@@ -9,7 +9,7 @@
     </a>
   </p>
 
-  <h3>Currently used technology</h3>
+  <h3>Currently used technologies</h3>
   <a href="https://github.com/tim0-12432?tab=repositories">
     <img src="https://skillicons.dev/icons?i=ts,react,sass,git,flask,docker,java,cs&perline=4&theme=dark" alt="Tech Stack" />
   </a>
