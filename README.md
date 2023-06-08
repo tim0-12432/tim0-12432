@@ -1,7 +1,8 @@
 <div align="center">
+  <h3>My GitHub Statistics</h3>
   <p align="center">
     <a href="https://github.com/tim0-12432">
-      <img width="45%" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=tim0-12432&show_icons=true&include_all_commits=true&text_bold=false&ring_color=f5dd42&count_private=true&title_color=cdd9e5&rank_icon=github&text_color=cdd9e5&icon_color=768390&bg_color=22272E&hide_border=true&custom_title=My%20GitHub%20Statistics"/>
+      <img width="45%" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=tim0-12432&show_icons=true&include_all_commits=true&text_bold=false&ring_color=f5dd42&count_private=true&title_color=cdd9e5&rank_icon=github&text_color=cdd9e5&icon_color=768390&bg_color=22272E&hide_border=true&hide_title=true"/>
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/tim0-12432?tab=repositories">
