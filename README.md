@@ -12,6 +12,6 @@
 
   <h3>Currently used technologies</h3>
   <a href="https://github.com/tim0-12432?tab=repositories">
-    <img src="https://skillicons.dev/icons?i=ts,react,sass,git,flask,docker,java,cs&perline=4&theme=dark" alt="Tech Stack" />
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=ts,react,sass,git,python,flask,docker,java,cs,jupyter&perline=5&theme=dark" alt="Tech Stack" />
   </a>
 </div>
