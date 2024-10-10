@@ -15,8 +15,6 @@
     <img src="https://go-skill-icons.vercel.app/api/icons?i=ts,react,sass,git,python,flask,docker,java,cs,jupyter&perline=5&theme=dark" alt="Tech Stack" />
   </a>
 
-  <h3>Contributed to following projects</h3>
-
 <!-- START_CONTRIBUTIONS -->
 <table>
   <tr>
