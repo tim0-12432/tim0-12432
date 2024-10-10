@@ -4,48 +4,55 @@ from datetime import datetime, timedelta, timezone
 
 USERNAME = "tim0-12432"
 TOKEN = os.getenv("GITHUB_TOKEN")
+YEARS = 2
 
 end_date = datetime.now(timezone.utc)
-start_date = end_date - timedelta(days=364)
+contributions_in_foreign_repos = []
 
-start_date_str = start_date.strftime("%Y-%m-%dT%H:%M:%SZ")
-end_date_str = end_date.strftime("%Y-%m-%dT%H:%M:%SZ")
+for _ in range(YEARS):
+  start_date = end_date - timedelta(days=364)
 
-query = f"""
-{{
-  user(login: "{USERNAME}") {{
-    contributionsCollection(from: "{start_date_str}", to: "{end_date_str}") {{
-      commitContributionsByRepository {{
-        repository {{
-          name
-          url
-          owner {{
-            login
-            avatarUrl
+  start_date_str = start_date.strftime("%Y-%m-%dT%H:%M:%SZ")
+  end_date_str = end_date.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+  query = f"""
+  {{
+    user(login: "{USERNAME}") {{
+      contributionsCollection(from: "{start_date_str}", to: "{end_date_str}") {{
+        commitContributionsByRepository {{
+          repository {{
+            name
+            url
+            owner {{
+              login
+              avatarUrl
+              url
+            }}
           }}
-        }}
-        contributions(first: 100) {{
-          nodes {{
-            occurredAt
-            commitCount
+          contributions(first: 100) {{
+            nodes {{
+              occurredAt
+              commitCount
+            }}
           }}
         }}
       }}
     }}
   }}
-}}
-"""
+  """
 
-headers = {"Authorization": f"Bearer {TOKEN}"}
-response = requests.post("https://api.github.com/graphql", json={"query": query}, headers=headers)
-data = response.json()
+  headers = {"Authorization": f"Bearer {TOKEN}"}
+  response = requests.post("https://api.github.com/graphql", json={"query": query}, headers=headers)
+  data = response.json()
 
-contributions_in_foreign_repos = []
-for repo_contribution in data['data']['user']['contributionsCollection']['commitContributionsByRepository']:
-    repo_owner = repo_contribution['repository']['owner']
-    if repo_owner['login'] != USERNAME:
-        commit_count = repo_contribution['contributions']['nodes'][0]['commitCount']
-        contributions_in_foreign_repos.append(f"<tr><td><img src='{repo_owner['avatarUrl']}' height='32' width='32' /></td><td><a href='{repo_contribution['repository']['url']}'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'commit' if commit_count == 1 else 'commits'}</td></tr>\n")
+  for repo_contribution in data['data']['user']['contributionsCollection']['commitContributionsByRepository']:
+      repo_owner = repo_contribution['repository']['owner']
+      if repo_owner['login'] != USERNAME:
+          commit_count = repo_contribution['contributions']['nodes'][0]['commitCount']
+          contributions_in_foreign_repos.append(f"<tr><td><a href='{repo_owner['url']}' target='_blank'><img src='{repo_owner['avatarUrl']}' height='32' width='32' /></a></td><td><a href='{repo_contribution['repository']['url']}' target='_blank'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'commit' if commit_count == 1 else 'commits'}</td></tr>\n")
+
+  end_date = start_date - timedelta(days=1)
+
 
 with open('README.md', 'r') as file:
     readme_content = file.readlines()
@@ -60,7 +67,7 @@ if len(contributions_in_foreign_repos) == 0:
     print("No contributions found in foreign repositories.")
     new_readme_content = readme_content[:start_index] + readme_content[end_index:]
 else:
-    new_readme_content = readme_content[:start_index] + ['<h3>Contributed to following projects</h3>\n', '<table>'] + contributions_in_foreign_repos + ['</table>', '\n'] + readme_content[end_index:]
+    new_readme_content = readme_content[:start_index] + ['<h3>Contributed to following projects</h3>\n', '<table>\n'] + contributions_in_foreign_repos + ['</table>', '\n'] + readme_content[end_index:]
 
 with open('README.md', 'w') as file:
     file.writelines(new_readme_content)
