@@ -43,7 +43,8 @@ contributions_in_foreign_repos = []
 for repo_contribution in data['data']['user']['contributionsCollection']['commitContributionsByRepository']:
     repo_owner = repo_contribution['repository']['owner']['login']
     if repo_owner != USERNAME:
-        contributions_in_foreign_repos.append(f"<tr><td><a href='{repo_contribution['repository']['url']}'>{repo_contribution['repository']['name']}</a></td><td>{repo_contribution['contributions']['nodes'][0]['commitCount']}</td></tr>")
+        commit_count = repo_contribution['contributions']['nodes'][0]['commitCount']
+        contributions_in_foreign_repos.append(f"<tr><td><img src='{repo_contribution['repository']['openGraphImageUrl']}' height='32' width='32' /></td><td><a href='{repo_contribution['repository']['url']}'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'commit' if commit_count == 1 else 'commits'}</td></tr>")
 
 with open('README.md', 'r') as file:
     readme_content = file.readlines()
@@ -54,7 +55,11 @@ end_marker = "<!-- END_CONTRIBUTIONS -->\n"
 start_index = readme_content.index(start_marker) + 1
 end_index = readme_content.index(end_marker)
 
-new_readme_content = readme_content[:start_index] + ['<h3>Contributed to following projects</h3>\n', '<table>'] + contributions_in_foreign_repos + ['\n', '</table>'] + readme_content[end_index:]
+if len(contributions_in_foreign_repos) == 0:
+    print("No contributions found in foreign repositories.")
+    new_readme_content = readme_content[:start_index] + readme_content[end_index:]
+else:
+    new_readme_content = readme_content[:start_index] + ['<h3>Contributed to following projects</h3>\n', '<table>'] + contributions_in_foreign_repos + ['\n', '</table>'] + readme_content[end_index:]
 
 with open('README.md', 'w') as file:
     file.writelines(new_readme_content)
