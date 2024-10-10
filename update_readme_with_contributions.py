@@ -34,6 +34,10 @@ for _ in range(YEARS):
               occurredAt
               commitCount
             }}
+            pageInfo {{
+              hasNextPage
+              endCursor
+            }}
           }}
         }}
       }}
@@ -53,6 +57,8 @@ for _ in range(YEARS):
 
   end_date = start_date - timedelta(days=1)
 
+
+print(f"Found {len(contributions_in_foreign_repos)} contributions in foreign repositories.")
 
 with open('README.md', 'r') as file:
     readme_content = file.readlines()
