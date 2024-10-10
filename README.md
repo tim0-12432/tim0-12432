@@ -17,6 +17,6 @@
 
   <h3>Contributed to following projects</h3>
 
-  <!-- START_CONTRIBUTIONS -->
-  <!-- END_CONTRIBUTIONS -->
+<!-- START_CONTRIBUTIONS -->
+<!-- END_CONTRIBUTIONS -->
 </div>
