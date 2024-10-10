@@ -17,7 +17,8 @@
 
 <!-- START_CONTRIBUTIONS -->
 <h3>Contributed to following projects</h3>
-<table><tr><td><img src='https://avatars.githubusercontent.com/u/7331248?u=e181c004f8e9d6b199d9498ca27989bf29429ae3&v=4' height='32' width='32' /></td><td><a href='https://github.com/sebinside/StreamAwesome'>StreamAwesome</a></td><td>1 commit</td></tr>
+<table>
+<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=e181c004f8e9d6b199d9498ca27989bf29429ae3&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>1 commit</td></tr>
 </table>
 <!-- END_CONTRIBUTIONS -->
 </div>
