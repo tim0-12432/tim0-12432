@@ -21,6 +21,7 @@ query = f"""
           url
           owner {{
             login
+            avatarUrl
           }}
         }}
         contributions(first: 100) {{
@@ -41,10 +42,10 @@ data = response.json()
 
 contributions_in_foreign_repos = []
 for repo_contribution in data['data']['user']['contributionsCollection']['commitContributionsByRepository']:
-    repo_owner = repo_contribution['repository']['owner']['login']
-    if repo_owner != USERNAME:
+    repo_owner = repo_contribution['repository']['owner']
+    if repo_owner['login'] != USERNAME:
         commit_count = repo_contribution['contributions']['nodes'][0]['commitCount']
-        contributions_in_foreign_repos.append(f"<tr><td><img src='{repo_contribution['repository']['openGraphImageUrl']}' height='32' width='32' /></td><td><a href='{repo_contribution['repository']['url']}'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'commit' if commit_count == 1 else 'commits'}</td></tr>")
+        contributions_in_foreign_repos.append(f"<tr><td><img src='{repo_owner['avatarUrl']}' height='32' width='32' /></td><td><a href='{repo_contribution['repository']['url']}'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'commit' if commit_count == 1 else 'commits'}</td></tr>")
 
 with open('README.md', 'r') as file:
     readme_content = file.readlines()
