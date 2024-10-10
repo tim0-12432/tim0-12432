@@ -18,5 +18,6 @@
   <h3>Contributed to following projects</h3>
 
 <!-- START_CONTRIBUTIONS -->
+- [StreamAwesome](https://github.com/sebinside/StreamAwesome)
 <!-- END_CONTRIBUTIONS -->
 </div>
