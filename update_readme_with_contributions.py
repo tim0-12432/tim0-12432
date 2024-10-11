@@ -28,6 +28,9 @@ for _ in range(YEARS):
               avatarUrl
               url
             }}
+            primaryLanguage {{
+              name
+            }}
           }}
           contributions(first: 100) {{
             nodes {{
@@ -53,9 +56,10 @@ for _ in range(YEARS):
       repo_owner = repo_contribution['repository']['owner']
       if repo_owner['login'] != USERNAME:
           commit_count = repo_contribution['contributions']['nodes'][0]['commitCount']
+          language = repo_contribution['repository']['primaryLanguage']['name'] if repo_contribution['repository']['primaryLanguage'] else "Unknown"
           for i in range(1, len(repo_contribution['contributions']['nodes'])):
               commit_count += repo_contribution['contributions']['nodes'][i]['commitCount']
-          contributions_in_foreign_repos.append(f"<tr><td><a href='{repo_owner['url']}' target='_blank'><img src='{repo_owner['avatarUrl']}' height='32' width='32' /></a></td><td><a href='{repo_contribution['repository']['url']}' target='_blank'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'contribution' if commit_count == 1 else 'contributions'}</td></tr>\n")
+          contributions_in_foreign_repos.append(f"<tr><td><a href='{repo_owner['url']}' target='_blank'><img src='{repo_owner['avatarUrl']}' height='32' width='32' /></a></td><td><a href='{repo_contribution['repository']['url']}' target='_blank'>{repo_contribution['repository']['name']}</a></td><td>{commit_count} {'contribution' if commit_count == 1 else 'contributions'}</td><td>{language}</td></tr>\n")
 
   end_date = start_date - timedelta(days=1)
 
