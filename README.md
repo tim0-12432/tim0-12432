@@ -23,4 +23,8 @@
 <tr><td><a href='https://github.com/Dieserartist' target='_blank'><img src='https://avatars.githubusercontent.com/u/81327450?v=4' height='32' width='32' /></a></td><td><a href='https://github.com/Dieserartist/ClickMyLinks' target='_blank'>ClickMyLinks</a></td><td>1 contribution</td><td>CSS</td></tr>
 </table>
 <!-- END_CONTRIBUTIONS -->
+
+<!-- START_AOC_BADGE -->
+
+<!-- END_AOC_BADGE -->
 </div>
