@@ -24,6 +24,9 @@
 </table>
 <!-- END_CONTRIBUTIONS -->
 
+<br/>
+<br/>
+
 <!-- START_AOC_BADGE -->
 
 <a href="https://adventofcode.com/">
