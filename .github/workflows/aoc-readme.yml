@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
           
-      - uses: tim0-12432/aoc-badge-action@v0.1.1
+      - uses: tim0-12432/aoc-badge-action@v0.1.2
         with:
           userid: ${{ secrets.AOC_USER }}
           session: ${{ secrets.AOC_SESSION }}
