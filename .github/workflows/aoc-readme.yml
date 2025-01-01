@@ -15,9 +15,9 @@ jobs:
           
       - uses: tim0-12432/aoc-badge-action@v0.2.0
         with:
-          userid: ${{ env.AOC_USER }}
+          userid: ${{ vars.AOC_USER }}
           session: ${{ secrets.AOC_SESSION }}
-          leaderboard: ${{ env.AOC_LEADERBOARD }}
+          leaderboard: ${{ vars.AOC_LEADERBOARD }}
           width: '35%'
 
       - continue-on-error: true
