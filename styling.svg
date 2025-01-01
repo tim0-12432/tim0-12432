@@ -1,0 +1,24 @@
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="0" height="0">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+            .p-name {
+                color: red;
+                animation: mymove 2s linear infinite;
+            }
+
+            @keyframes mymove {
+                0% {
+                    color: red;
+                }
+                50% {
+                    color: yellow;
+                }
+                100% {
+                    color: red;
+                }
+            }
+            </style>
+        </div>
+    </foreignObject>
+</svg>
