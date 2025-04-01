@@ -18,7 +18,7 @@
 <!-- START_CONTRIBUTIONS -->
 <h3>Contributed to following projects</h3>
 <table>
-<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=e181c004f8e9d6b199d9498ca27989bf29429ae3&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>2 contributions</td><td>Vue</td></tr>
+<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=e181c004f8e9d6b199d9498ca27989bf29429ae3&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>4 contributions</td><td>Vue</td></tr>
 <tr><td><a href='https://github.com/tandpfun' target='_blank'><img src='https://avatars.githubusercontent.com/u/28990589?u=ca0483235c2e9cacaa2f98234a1875e51152c3cd&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/tandpfun/skill-icons' target='_blank'>skill-icons</a></td><td>1 contribution</td><td>SVG</td></tr>
 </table>
 <!-- END_CONTRIBUTIONS -->
