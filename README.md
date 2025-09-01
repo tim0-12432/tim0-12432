@@ -19,8 +19,7 @@
 <h3>Contributed to following projects</h3>
 <table>
 <tr><td><a href='https://github.com/javadelight' target='_blank'><img src='https://avatars.githubusercontent.com/u/13172367?u=d1891d0f71c9b21d555cb09c12262c83a14eb228&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/javadelight/delight-nashorn-sandbox' target='_blank'>delight-nashorn-sandbox</a></td><td>1 contribution</td><td>Java</td></tr>
-<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=e181c004f8e9d6b199d9498ca27989bf29429ae3&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>4 contributions</td><td>Vue</td></tr>
-<tr><td><a href='https://github.com/tandpfun' target='_blank'><img src='https://avatars.githubusercontent.com/u/28990589?u=ca0483235c2e9cacaa2f98234a1875e51152c3cd&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/tandpfun/skill-icons' target='_blank'>skill-icons</a></td><td>1 contribution</td><td>SVG</td></tr>
+<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=35c033509c94efe801846c2545f7a0b6dfea5603&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>4 contributions</td><td>Vue</td></tr>
 </table>
 <!-- END_CONTRIBUTIONS -->
 
