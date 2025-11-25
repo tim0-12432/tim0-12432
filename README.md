@@ -29,5 +29,8 @@
 <br/>
 
 <!-- START_AOC_BADGE -->
+<a href="https://adventofcode.com/">
+<img width="35%" alt="AoC Badge" src="./aoc-badge.svg"/>
+</a>
 <!-- END_AOC_BADGE -->
 </div>
