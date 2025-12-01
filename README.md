@@ -19,7 +19,7 @@
 <h3>Contributed to following projects</h3>
 <table>
 <tr><td><a href='https://github.com/javadelight' target='_blank'><img src='https://avatars.githubusercontent.com/u/13172367?u=d1891d0f71c9b21d555cb09c12262c83a14eb228&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/javadelight/delight-nashorn-sandbox' target='_blank'>delight-nashorn-sandbox</a></td><td>1 contribution</td><td>Java</td></tr>
-<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=35c033509c94efe801846c2545f7a0b6dfea5603&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>4 contributions</td><td>Vue</td></tr>
+<tr><td><a href='https://github.com/sebinside' target='_blank'><img src='https://avatars.githubusercontent.com/u/7331248?u=35c033509c94efe801846c2545f7a0b6dfea5603&v=4' height='32' width='32' /></a></td><td><a href='https://github.com/sebinside/StreamAwesome' target='_blank'>StreamAwesome</a></td><td>4 contributions</td><td>TypeScript</td></tr>
 </table>
 <!-- END_CONTRIBUTIONS -->
 
