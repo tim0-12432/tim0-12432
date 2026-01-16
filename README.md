@@ -12,7 +12,7 @@
 
   <h3>Currently used technologies</h3>
   <a href="https://github.com/tim0-12432?tab=repositories">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=ts,react,sass,git,python,flask,docker,java,cs,jupyter&perline=5&theme=dark" alt="Tech Stack" />
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=ts,react,sass,git,python,aws,docker,java,cs,jupyter&perline=5&theme=dark" alt="Tech Stack" />
   </a>
 
 <!-- START_CONTRIBUTIONS -->
@@ -29,8 +29,5 @@
 <br/>
 
 <!-- START_AOC_BADGE -->
-<a href="https://adventofcode.com/">
-<img width="35%" alt="AoC Badge" src="./aoc-badge.svg"/>
-</a>
 <!-- END_AOC_BADGE -->
 </div>
